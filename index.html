@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Performance | Supere seus limites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <span>PERFORMANCE</span>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- CURSOR CUSTOM -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.academia.jpg" alt="Logo Academia Performance" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <span class="logo-text" style="display:none">PERFORMANCE</span>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#estrutura" class="nav-link">Estrutura</a></li>
+                    <li><a href="#planos" class="nav-link">Planos</a></li>
+                    <li><a href="#localizacao" class="nav-link">Localização</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#inicio" class="mobile-link">Início</a></li>
+            <li><a href="#estrutura" class="mobile-link">Estrutura</a></li>
+            <li><a href="#planos" class="mobile-link">Planos</a></li>
+            <li><a href="#localizacao" class="mobile-link">Localização</a></li>
+        </ul>
+    </div>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <div class="hero-noise"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-tag reveal-up">Academia em Morrinhos, GO</div>
+            <h1 class="hero-title reveal-up">
+                <span class="line">DESPERTE</span>
+                <span class="line accent">SUA MELHOR</span>
+                <span class="line outline">PERFORMANCE</span>
+            </h1>
+            <p class="hero-sub reveal-up">Estrutura completa, equipamentos variados e o ambiente<br>ideal para você alcançar seus resultados.</p>
+            <div class="hero-cta reveal-up">
+                <a href="#planos" class="btn-primary">Ver Planos <i class="fas fa-arrow-right"></i></a>
+                <a href="#estrutura" class="btn-ghost">Conhecer a estrutura</a>
+            </div>
+        </div>
+        
+        </div>
+        <div class="hero-counter">
+            <div class="counter-item">
+                <strong data-count="200">0</strong><span>Alunos</span>
+            </div>
+            <div class="counter-item">
+                <strong data-count="13">0</strong><span>Anos de experiência</span>
+            </div>
+            <div class="counter-item">
+                <strong data-count="7">0</strong><span>Profissionais</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Benefícios</span>
+                <h2 class="section-title">Por que praticar <span>Musculação?</span></h2>
+            </div>
+            <div class="beneficios-grid">
+                <div class="beneficio-card reveal-up">
+                    <div class="card-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Força e Hipertrofia</h3>
+                    <p>Construa músculos sólidos, aumente sua força e defina seu corpo com o treino certo.</p>
+                    <div class="card-line"></div>
+                </div>
+                <div class="beneficio-card reveal-up" style="--delay:0.1s">
+                    <div class="card-icon"><i class="fas fa-fire-alt"></i></div>
+                    <h3>Queima de Gordura</h3>
+                    <p>Acelere seu metabolismo e continue queimando calorias mesmo em repouso.</p>
+                    <div class="card-line"></div>
+                </div>
+                <div class="beneficio-card reveal-up" style="--delay:0.2s">
+                    <div class="card-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Saúde e Longevidade</h3>
+                    <p>Previne lesões, melhora a postura e fortalece ossos e articulações.</p>
+                    <div class="card-line"></div>
+                </div>
+                <div class="beneficio-card reveal-up" style="--delay:0.3s">
+                    <div class="card-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Foco e Bem-estar</h3>
+                    <p>Libera endorfina, reduzindo o estresse e melhorando a qualidade do seu sono.</p>
+                    <div class="card-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ESTRUTURA -->
+    <section id="estrutura" class="estrutura">
+        <div class="estrutura-bg-text">PERFORMANCE</div>
+        <div class="container estrutura-container">
+            <div class="estrutura-text reveal-left">
+                <span class="section-tag">Nossa Estrutura</span>
+                <h2>Feita para <span>Resultados</span></h2>
+                <p>Academia Performance oferece uma estrutura completa de musculação e condicionamento físico, com equipamentos variados e profissionais altamente qualificados.</p>
+                <ul class="estrutura-lista">
+                    <li><i class="fas fa-check-circle"></i> Equipamentos de Alta Performance</li>
+                    <li><i class="fas fa-check-circle"></i> Instrutores Qualificados</li>
+                    <li><i class="fas fa-check-circle"></i> Área de Cardio Completa</li>
+                    <li><i class="fas fa-check-circle"></i> Armários</li>
+                    <li><i class="fas fa-check-circle"></i> Estacionamento Facilitado</li>
+                    <li><i class="fas fa-check-circle"></i> Ambiente Climatizado</li>
+                </ul>
+            </div>
+            <div class="estrutura-img reveal-right">
+                <div class="img-frame">
+                    <img src="WhatsApp Image 2026-03-10 at 21.40.36.jpeg" alt="Fachada da Academia Performance"
+                         onerror="this.src=''; this.parentElement.classList.add('img-placeholder')">
+                    <div class="img-badge"><i class="fas fa-award"></i> Melhor estrutura</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section id="planos" class="planos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Investimento</span>
+                <h2 class="section-title">Nossos <span>Planos</span></h2>
+                <p class="section-sub">Escolha o plano ideal para o seu objetivo e comece hoje mesmo.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card reveal-up">
+                    <div class="card-top">
+                        <h3>Mensal</h3>
+                        <p class="card-desc">Perfeito para começar</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-prefix">R$</span>
+                        <strong>110,00</strong>
+                        <span class="price-suffix">/mês</span>
+                    </div>
+                    <ul class="card-features">
+                        <li class="yes"><i class="fas fa-check"></i> Musculação livre</li>
+                        <li class="yes"><i class="fas fa-check"></i> Horário livre</li>
+                       
+                        <li class="no"><i class="fas fa-times"></i> Avaliação física</li>
+                    </ul>
+                    <button class="btn-buy" data-plano="Plano Mensal de R$ 99">
+                        <i class="fab fa-whatsapp"></i> Assinar Agora
+                    </button>
+                </div>
+
+                <div class="card destaque reveal-up" style="--delay:0.15s">
+                    <div class="badge-popular">⭐ Mais Escolhido</div>
+                    <div class="card-top">
+                        <h3>Anual</h3>
+                        <p class="card-desc">Melhor custo-benefício</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-prefix">R$</span>
+                        <strong>77,00</strong>
+                        <span class="price-suffix">/mês</span>
+                    </div>
+                    <ul class="card-features">
+                        <li class="yes"><i class="fas fa-check"></i> Musculação livre</li>
+                        <li class="yes"><i class="fas fa-check"></i> Horário livre</li>
+                    
+                        <li class="yes"><i class="fas fa-check"></i> Avaliação física</li>
+                    </ul>
+                    <button class="btn-buy btn-buy-destaque" data-plano="Plano Semestral de R$ 79/mês">
+                        <i class="fab fa-whatsapp"></i> Assinar Agora
+                    </button>
+                </div>
+
+                <div class="card reveal-up" style="--delay:0.3s">
+                    <div class="card-top">
+                        <h3>Semestral</h3>
+                        <p class="card-desc">Máximo comprometimento</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-prefix">R$</span>
+                        <strong>79,90</strong>
+                        <span class="price-suffix">/mês</span>
+                    </div>
+                    <ul class="card-features">
+                        <li class="yes"><i class="fas fa-check"></i> Todos os benefícios Semestral</li>
+                        <li class="yes"><i class="fas fa-check"></i> Leve 1 amigo 2x/mês</li>
+                        <li class="yes"><i class="fas fa-check"></i> Camiseta Exclusiva</li>
+                        <li class="yes"><i class="fas fa-check"></i> Prioridade em novidades</li>
+                    </ul>
+                    <button class="btn-buy" data-plano="Plano Anual de R$ 59/mês">
+                        <i class="fab fa-whatsapp"></i> Assinar Agora
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section class="avaliacoes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O que dizem <span>nossos alunos</span></h2>
+            </div>
+            <div class="avaliacoes-grid">
+                <div class="aval-card reveal-up">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Melhor academia da região! Equipamentos novos e professores que realmente montam um treino focado no seu objetivo."</p>
+                    <div class="aval-author">
+                        <div class="author-avatar">JS</div>
+                        <h4>João Silva</h4>
+                    </div>
+                </div>
+                <div class="aval-card reveal-up" style="--delay:0.15s">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Ambiente sensacional, muito climatizado e com ótimo espaço para estacionar. Recomendo de olhos fechados!"</p>
+                    <div class="aval-author">
+                        <div class="author-avatar">MC</div>
+                        <h4>Mariana Costa</h4>
+                    </div>
+                </div>
+                <div class="aval-card reveal-up" style="--delay:0.3s">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Preço justo pela estrutura oferecida. A área de peso livre é enorme e não tem fila para usar as máquinas."</p>
+                    <div class="aval-author">
+                        <div class="author-avatar">LO</div>
+                        <h4>Lucas Oliveira</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+            </div>
+            <div class="loc-horarios reveal-right">
+                <h3>Horários</h3>
+                <div class="status-badge" id="status-academia">Carregando...</div>
+                <ul>
+                    <li>
+                        <i class="fas fa-sun"></i>
+                        <div>
+                            <strong>Segunda a Sexta</strong>
+                            <span>05:00 às 22:00 hrs</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-umbrella-beach"></i>
+                        <div>
+                            <strong>Sábado</strong>
+                            <span>08:00 às 12:00 hrs</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-moon"></i>
+                        <div>
+                            <strong>Domingo e Feriados</strong>
+                            <span>Fechado</span>
+                        </div>
+                    </li>
+                </ul>
+                <a href="https://wa.me/5564992203213" target="_blank" class="btn-primary wpp-btn">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contato">
+        <div class="footer-top">
+            <div class="container footer-container">
+                <div class="footer-brand">
+                    <img src="logo.academia.jpg" alt="Logo" class="footer-logo"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <span class="footer-logo-text" style="display:none">PERFORMANCE</span>
+                    <p>A força que você precisa, com a estrutura que você merece.</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/acade_miaperformanceoficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076136083442&ref=PROFILE_EDIT_xav_ig_profile_page_web#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#estrutura">Estrutura</a></li>
+                        <li><a href="#planos">Planos</a></li>
+                        <li><a href="#localizacao">Localização</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Dr Pedro Nunes, 500-A CENTRO MORRINHOS-GO</p>
+                    <p><i class="fas fa-envelope"></i> contato@academiaperformance.com.br</p>
+                    <p><i class="fab fa-whatsapp"></i> (64) 99220-3213</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Academia Performance. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <a href="https://wa.me/5500000000000" class="wpp-float" target="_blank" aria-label="Contato WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span>Fale conosco</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
